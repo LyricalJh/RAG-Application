@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:15432/ragdb?sslmode=disable
+    username: rag
+    password: ragpw
+    driver-class-name: org.postgresql.Driver
+
+gemini:
+  apiKey: AIzaSyCN2ggk8OnCnECqIg-C8Kwhne47Hief8b4
+  model: gemini-2.5-flash
