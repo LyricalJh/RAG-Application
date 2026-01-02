@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:15432/ragdb?sslmode=disable
-    username: rag
-    password: ragpw
+    username: 
+    password: 
     driver-class-name: org.postgresql.Driver
 
 gemini:
